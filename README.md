@@ -17,12 +17,17 @@ yarn serve
 
 ## Exercise
 
-You will see 2 attachments to this email:
+Here are 2 visuals for you:
 
 - Inbox: a notification slider. This is the component the exercise revolves around.
-- Inbox-page: that shows an example of placement of the Inbox within a page. This is just for your reference and you are NOT expected to build any of this.
 
-The Slider has been already implemented for you [here](LINK TO GH REPO).
+![The Inbox](./assets/inbox.png)
+
+- Inbox-page: that shows an example of placement of the Inbox within a page. **This is just for your reference and you are NOT expected to build any of this.**
+
+![The Loan Page, with the Inbox](./assets/inbox-page.png)
+
+The Slider has been already implemented for you in the current repo.
 
 Clone it and follow the instructions to get it up and running.
 If everything goes smoothly you will have a local version of the slider visibile on http://localhost:3000/
@@ -48,7 +53,7 @@ Some details for you to consider:
 
 Please add a quick README where you clarify your general approach. We are really interested in what you think about the current implementation and your suggestions to make it better.
 
-If you have any question just reply to this email and i will reply as soon as possible.
+If you have any question just write me an email and i will reply as soon as possible.
 
-Once finished you can upload your result to a service like Github or Bitbucket and share the link with us.
+Once finished you can upload your result to a service like Github or Bitbucket and share the link or the access with us.
 Good luck!
