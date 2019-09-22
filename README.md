@@ -51,9 +51,9 @@ Some details for you to consider:
 - There's no hard deadline, feel free to take as much or as little time as you wish.
 - Don't try and make it perfect at all cost though. Some rough edges here and there are totally ok. If you feel something can be improved add your view about it in the readme and we can just talk through it on our next call. As long as there's enough for us to review and to see where your strengths are it will be alright.
 
-Please add a quick README where you clarify your general approach. We are really interested in what you think about the current implementation and your suggestions to make it better.
+Please add a quick README alongisde this one, where you clarify your general approach. We are really interested in what you think about the current implementation and your suggestions to make it better.
 
 If you have any question just write me an email and i will reply as soon as possible.
 
-Once finished you can upload your result to a service like Github or Bitbucket and share the link or the access with us.
+Once finished you can open a PR to this same repo and notify us that it's ready for review.
 Good luck!
