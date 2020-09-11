@@ -51,7 +51,9 @@ Some details for you to consider:
 - There's no hard deadline, feel free to take as much or as little time as you wish.
 - Don't try and make it perfect at all cost though. Some rough edges here and there are totally ok. If you feel something can be improved add your view about it in the readme and we can just talk through it on our next call. As long as there's enough for us to review and to see where your strengths are it will be alright.
 
-Please add a quick README alongisde this one, where you clarify your general approach. We are really interested in what you think about the current implementation and your suggestions to make it better.
+Please add a quick README alongisde this one, where you clarify your general approach. 
+We are really interested in what you think about the current implementation and your suggestions to make it better.
+We'd also like to hear your feedback on the challenge itself.
 
 Once finished please:
 
