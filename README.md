@@ -53,7 +53,12 @@ Some details for you to consider:
 
 Please add a quick README alongisde this one, where you clarify your general approach. We are really interested in what you think about the current implementation and your suggestions to make it better.
 
-If you have any question just write me an email and i will reply as soon as possible.
+Once finished please:
 
-Once finished you can open a PR to this same repo and notify us that it's ready for review.
+1. upload master to a private repo under your personal Github profile
+2. open a PR against it with your solution
+3. **transfer the ownership** of the repo to the account of the person you were in contact with (ask us in case you are unsure about this)
+
+If you have any question just write us an email and we will reply as soon as possible.
+
 Good luck!
