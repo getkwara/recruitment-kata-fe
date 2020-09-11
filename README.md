@@ -53,7 +53,7 @@ Some details for you to consider:
 
 Please add a quick README alongisde this one, where you clarify your general approach. 
 We are really interested in what you think about the current implementation and your suggestions to make it better.
-We'd also like to hear your feedback on the challenge itself.
+We'd also like to hear your feedback on the challenge itself. Critical feedback is encouraged, so feel free to share any thoughts you might have.
 
 Once finished please:
 
