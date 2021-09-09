@@ -30,7 +30,7 @@ class ActionButton extends Component {
     return (
       <div className="ActionButton">
         <button 
-          className="action-button">
+          className={`action-button action-button-color-${type}`}>
             {this.capitalizeFirstLetter(action)} {this.capitalizeFirstLetter(type)} 
         </button>
       </div>

@@ -31,7 +31,7 @@ class Inbox extends Component {
  
   componentDidMount() {
     api.fetchInboxMessages()
-      .then(res => {this.setState({messages: res.data})})
+      .then(res => {this.setState({messages: res})})
       .catch(err => console.log("DEBUG Error at fetchInboxMessage", err))
   }
 

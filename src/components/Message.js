@@ -32,7 +32,8 @@ class Message extends Component {
     }
 
     const message = messages[this.props.indexActiveMessage]
-    const { type, amount, member, info: {dates: {timestamp}} } = message
+    const { type, amount, info: {dates: {timestamp}} } = message
+    let userName = (type === 'loan') ? message.member : message.user;
 
     return (
       <div className="Message">
@@ -40,7 +41,7 @@ class Message extends Component {
           <span>{this.props.indexActiveMessage + 1} of {messages.length}</span>
           <span>{this.calculateTimeSince(timestamp)}</span>
         </div>
-        <h2>{member} applied for a {type} with a total amount of KES {amount.toLocaleString()}</h2>
+        <h2>{userName} applied for a {type} with a total amount of KES {amount.toLocaleString()}</h2>
       </div>
     );
   }

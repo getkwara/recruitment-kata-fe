@@ -42,3 +42,11 @@ button img {
   border: 0px;
   font-size: 1.2em;
 }
+
+.action-button-color-withdrawal-request {
+  background-color: #000000;
+}
+
+.action-button-color-topup-request {
+  background-color: #900020;
+}
