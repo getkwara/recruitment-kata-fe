@@ -27,7 +27,7 @@ Here are 2 visuals for you:
 
 ![The Loan Page, with the Inbox](./assets/inbox-page.png)
 
-The current repo is the the Slider in its current form, developed previously by a junior dev.
+The current repo is the Slider in its current form, developed previously by a junior dev.
 It is functionally working and making calls to an endpoint that returns Loan data `/api/inbox/loans`. 
 Clone the repo and follow the instructions to get it up and running.
 If everything goes smoothly you will have a local version of the slider visibile on http://localhost:3000/
