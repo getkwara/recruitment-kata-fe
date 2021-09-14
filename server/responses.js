@@ -8,7 +8,7 @@ const loans = [
     member: 'Anthony Martial',
     info: {
       dates: {
-        timestamp: '2018-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
@@ -19,7 +19,7 @@ const loans = [
     member: 'Cynthia Wandia',
     info: {
       dates: {
-        timestamp: '2018-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
@@ -30,7 +30,7 @@ const loans = [
     member: 'Agatha Cristie',
     info: {
       dates: {
-        timestamp: '2018-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
@@ -44,7 +44,7 @@ const till = [
     user: 'John Myers',
     info: {
       dates: {
-        timestamp: '2019-05-13T09:30:24.022Z',
+        timestamp: '2021-05-13T09:30:24.022Z',
       },
     },
   },
@@ -53,7 +53,11 @@ const till = [
     action: 'review',
     amount: 25000,
     user: 'Mary Summers',
-    info: {},
+    info: {
+      dates: {
+        timestamp: '2021-05-16T09:30:24.022Z',
+      },
+    },
   },
   {
     type: 'topup-request',
@@ -62,10 +66,20 @@ const till = [
     user: 'Mary Summers',
     info: {
       dates: {
-        timestamp: '2019-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
+  {
+    type: 'withdrawal-notification',
+    amount: 5000,
+    user: 'Cynthia Wandia',
+    info: {
+      dates: {
+        timestamp: '2021-05-16T09:30:24.022Z',
+      },
+    }
+  }
 ];
 
 module.exports = { loans, till };
