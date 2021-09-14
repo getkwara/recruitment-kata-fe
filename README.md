@@ -33,7 +33,9 @@ Clone the repo and follow the instructions to get it up and running.
 If everything goes smoothly you will have a local version of the slider visibile on http://localhost:3000/
 
 We now have to support a second endpoint that returns data related to the Till, `api/inbox/till`.
-This is the primary task for today, making sure that the existing `<Inbox />` Component works for both use cases.
+This is the primary task for today, making sure that the existing `<Inbox />` Component works for both use cases. The goal is that the one inbox can show the user both types of messages.
+
+You may notice the server is sporadically unstable, returning an error. We ask that you handle the errors in a reasonable way. Unfortunately, the UX designer is out sick, so the implementation is in your hands how best to do that.
 
 You are free to approach the task in any way that makes sense for you.
 Feel free to modify and restructure any of the existing files in the `src/` directory to make sure that the component adapts to the new requirements. 
