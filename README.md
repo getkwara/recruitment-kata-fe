@@ -30,7 +30,7 @@ Here are 2 visuals for you:
 The current repo is the Slider in its current form, developed previously by a junior dev.
 It is functionally working and making calls to an endpoint that returns Loan data `/api/inbox/loans`. 
 Clone the repo and follow the instructions to get it up and running.
-If everything goes smoothly you will have a local version of the slider visibile on http://localhost:3000/
+If everything goes smoothly you will have a local version of the slider visible on http://localhost:3000/
 
 We now have to support a second endpoint that returns data related to the Till, `api/inbox/till`.
 This is the primary task for today, making sure that the existing `<Inbox />` Component works for both use cases. The goal is that the one inbox can show the user both types of messages.
