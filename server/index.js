@@ -1,3 +1,5 @@
+// PLEASE DO NOT CHANGE THIS FILE
+
 const Koa = require('koa');
 const logger = require('koa-logger');
 const Router = require('koa-router');

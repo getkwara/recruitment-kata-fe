@@ -1,3 +1,5 @@
+// PLEASE DO NOT CHANGE THIS FILE
+
 const loans = [
   {
     type: 'loan',
@@ -51,11 +53,7 @@ const till = [
     action: 'review',
     amount: 25000,
     user: 'Mary Summers',
-    info: {
-      dates: {
-        timestamp: '2019-05-16T09:30:24.022Z',
-      },
-    },
+    info: {},
   },
   {
     type: 'topup-request',
