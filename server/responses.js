@@ -1,3 +1,5 @@
+// PLEASE DO NOT CHANGE THIS FILE
+
 const loans = [
   {
     type: 'loan',
@@ -6,7 +8,7 @@ const loans = [
     member: 'Anthony Martial',
     info: {
       dates: {
-        timestamp: '2018-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
@@ -17,7 +19,7 @@ const loans = [
     member: 'Cynthia Wandia',
     info: {
       dates: {
-        timestamp: '2018-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
@@ -28,7 +30,7 @@ const loans = [
     member: 'Agatha Cristie',
     info: {
       dates: {
-        timestamp: '2018-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
@@ -42,7 +44,7 @@ const till = [
     user: 'John Myers',
     info: {
       dates: {
-        timestamp: '2019-05-13T09:30:24.022Z',
+        timestamp: '2021-05-13T09:30:24.022Z',
       },
     },
   },
@@ -53,7 +55,7 @@ const till = [
     user: 'Mary Summers',
     info: {
       dates: {
-        timestamp: '2019-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
   },
@@ -64,10 +66,10 @@ const till = [
     user: 'Mary Summers',
     info: {
       dates: {
-        timestamp: '2019-05-16T09:30:24.022Z',
+        timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
-  },
+  }
 ];
 
 module.exports = { loans, till };
