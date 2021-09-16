@@ -69,16 +69,6 @@ const till = [
         timestamp: '2021-05-16T09:30:24.022Z',
       },
     },
-  },
-  {
-    type: 'withdrawal-notification',
-    amount: 5000,
-    user: 'Cynthia Wandia',
-    info: {
-      dates: {
-        timestamp: '2021-05-16T09:30:24.022Z',
-      },
-    }
   }
 ];
 
