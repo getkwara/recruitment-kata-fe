@@ -75,9 +75,11 @@ My solution enables the user to switch between till messages and loan message vi
 
 What to expect 
 The image below displays loan messages with a button above to switch to till messages.
+
 ![image](https://user-images.githubusercontent.com/13431164/134042213-e715447e-4e1a-448a-8e4f-84b9d0556841.png)
 
 The image below displays till messages with a button above to give the user a chance to switch back to loan messages.
+
 ![image](https://user-images.githubusercontent.com/13431164/134042474-a1ff9a7a-0ca6-46ef-a440-abd9b9308f94.png)
 
 
