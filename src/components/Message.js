@@ -14,11 +14,12 @@ class Message extends Component {
 
   render() {
     const messages = this.props.messages
+    const errorMessage = this.props.errorMessage
 
     if (!messages) {
       return (
         <div className="Message">
-          <h4>Loading messages...</h4>
+          <h4>Error Loading Messages {errorMessage}</h4>
         </div>
       )
     }
