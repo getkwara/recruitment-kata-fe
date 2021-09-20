@@ -1,3 +1,11 @@
+:root {
+  --white: #ffffff;
+  --button-radius: 20px;
+  --button-border: 0px;
+  --message-type-btn-fontSize: 0.8em;
+  --no-border: 0px;
+}
+
 .Inbox {
   width: 400px;
   height: 380px;
@@ -18,8 +26,13 @@ button img {
   height: 20px;
 }
 
-.inbox-buttons button {
-  border: 0px;
+.previous{
+  border: var(--no-border);
+  background: transparent
+}
+
+.next{
+  border: var(--no-border);
   background: transparent
 }
 
@@ -33,12 +46,65 @@ button img {
 }
 
 .action-button {
-  /* height: 40px;
-  width: 100px; */
   padding: 10px 15px;
-  border-radius: 20px;
-  color: #fff;
+  border-radius: var(--button-radius);
+  color: var(--white);
   background-color: #4a65b6;
-  border: 0px;
+  border: var(--no-border);
   font-size: 1.2em;
+}
+
+.show-till-msg-button{
+  padding: 10px 15px;
+  border-radius: var(--button-radius);
+  color: var(--white);
+  background-color: #2b2f3a;
+  border:  var(--no-border);
+  font-size: var(--message-type-btn-fontSize);
+}
+.show-loan-msg-button{
+  padding: 10px 15px;
+  border-radius: var(--button-radius);
+  color: var(--white);
+  background-color: #684a4a;
+  border:  var(--no-border);
+  font-size: var(--message-type-btn-fontSize);
+}
+
+/* Add responsiveness for smaller screens */
+@media only screen and (max-width: 600px) {
+  .inbox-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .inbox-buttons{
+    display: flex;
+  }
+  .show-till-msg-button{
+    color: var(--white);
+    border-radius: 4px;
+    padding: 3px 3px;
+    background-color: #2b2f3a;
+    border:  var(--no-border);
+    font-size: 0.7em;
+  }
+  .show-loan-msg-button{
+    padding: 3px 3px;
+    border-radius: 4px;
+    color: var(--white);
+    background-color: #684a4a;
+    border:  var(--no-border);
+    font-size: 0.7em;
+  }
+
+  .Inbox {
+    width: 350px;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 }
