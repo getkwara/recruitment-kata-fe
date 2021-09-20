@@ -20,4 +20,10 @@ export default {
       .then(res => res.data)
       .catch(errHandler);
   },
+
+  fetchInboxTillMessages() {
+    return service.get('/inbox/till')
+    .then(res => res.data)
+    .catch(errHandler)
+  }
 };
