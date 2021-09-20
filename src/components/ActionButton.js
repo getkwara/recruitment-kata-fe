@@ -13,6 +13,7 @@ class ActionButton extends Component {
     if (!messages) {
       return (
         <div className="ActionButton">
+          No Action Available
         </div>
       )
     }
@@ -20,6 +21,7 @@ class ActionButton extends Component {
     if (messages.length === 0) {
       return (
         <div className="ActionButton">
+            No Action Available
         </div>
       )
     }
